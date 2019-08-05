@@ -1,0 +1,12 @@
+# Created at 2019-08-01T12:43:56.015
+Error: Could not find or load main class Dfile.encoding=UTF-8
+
+# Created at 2019-08-01T12:43:56.016
+Caused by: java.lang.ClassNotFoundException: Dfile.encoding=UTF-8
+
+# Created at 2019-08-01T12:43:56.414
+Error: Could not find or load main class Dfile.encoding=UTF-8
+
+# Created at 2019-08-01T12:43:56.416
+Caused by: java.lang.ClassNotFoundException: Dfile.encoding=UTF-8
+

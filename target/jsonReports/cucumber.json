@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-01T20:56:44.963Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4101220571,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "my information",
+        "description": "",
+        "id": "my-details-page;my-information",
+        "after": [
+          {
+            "result": {
+              "duration": 401579984,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5659403939,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user on the login page",
+            "match": {
+              "location": "HomePageStepDefinitions.userOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7919831407,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user logs in using \"ucharlot7y@nbcnews.com\" and \"archibaldmelloy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ucharlot7y@nbcnews.com\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"archibaldmelloy\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginPageStepDefinitions.user_logs_in_using_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420946664,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user goes to the \"my self\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"my self\"",
+                  "offset": 21
+                }
+              ],
+              "location": "MapDetailsStepDefinitions.the_user_goes_to_the_page(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@account"
+          }
+        ]
+      }
+    ],
+    "name": "My details page",
+    "description": "",
+    "id": "my-details-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/accounts/mydetails.feature",
+    "tags": []
+  }
+]
