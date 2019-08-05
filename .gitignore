@@ -1,0 +1,36 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+
+# Extra
+
+extent-config.xml
+test-output/
+
+
+# some changes for git exercise
+
+# second changes for git exe
+
+
+# changes from feature branch local
+
+
+
+# stash changes
+#Stashed changes
+
