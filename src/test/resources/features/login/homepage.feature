@@ -1,4 +1,4 @@
-@login
+
 Feature: Home page
   As a team lead, when I enter correct login information,
   I should be able to login
